@@ -1,11 +1,8 @@
-# CKS-Reservation-System
-This project is for CKS-OJT only
-
 **<h1>CKS-HAU Reservation System</h1>**
 
 **Overview**
 
-This web applications was created for the OJT project.
+This web applications was created for the OJT project. This project is for CKS-OJT only.
 
 
 **<h3>Features</h3>**
