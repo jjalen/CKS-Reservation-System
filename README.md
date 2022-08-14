@@ -1,7 +1,9 @@
 # CKS-Reservation-System
 This project is for CKS-OJT only
 
-Team
+**<h2>Our Team</h2>**
 Masanque, Leslie
-Quiambao, Carl Angelo
+
+Carl Angelo Quiambao
+
 Relativo, Jalen
