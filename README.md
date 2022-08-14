@@ -7,11 +7,11 @@ This web applications was created for the OJT project. This project is for CKS-O
 
 **<h3>Features</h3>**
 
-•	Sharing articles, videos or information about the topic.
+•	No time consuming.
 
-•	Spreading positive messages about mental health.
+•	-.
 
-•	Helping others become educated about the issues.
+•	-.
 
 **<h3>Motivation</h3>**
 
@@ -19,17 +19,19 @@ My team is described as the ‘process that initiates, guides, and maintains goa
 
 **<h2>Getting Started</h2>**
 
-•	The Homepage contains details and information about mental health. The page also contains some inspirational quotes that uplifts a person's emotions.
+•	--
 
-•	The Article page contains some articles and news about mental health awareness. The user can click on these articles to read some news and gain information about mental health awareness.
+•	--
 
-•	The About page contains our introduction on our team. Our team also has their own interpretation of what mental health awareness is.
+•	--
 
-•	In the Contact page, the user can input their details on the given form, and we will try our best to reach out to them and talk about their experiences.
+•	--
 
 **<h3>Used / Dependencies</h3>**
 
-•	HTML, CSS5
+•	HTML, CSS5, JQuery
+
+•	PHP, MySql
 
 •	Javascript
 
@@ -37,13 +39,13 @@ My team is described as the ‘process that initiates, guides, and maintains goa
 
 •	Icons from Font Awesome https://fontawesome.com/
 
-•	Pictures from Pexels https://www.pexels.com/
+•	Images from Pexels https://www.pexels.com/
+
+•	Svg, Incons from SvgRepo https://www.svgrepo.com/svg
 
 **<h3>References</h3>**
 
 •	W3schools https://www.w3schools.com/
-
-•	Angular bootstrap https://getbootstrap.com/
 
 •	Youtube https://www.youtube.com/
 
