@@ -1,0 +1,243 @@
+body{
+  display: flex;
+  /* height: 100vh; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background:  linear-gradient(to bottom, #83BD75 , #557B83);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 5px;
+  padding-top: 30px;
+  height: 850px;
+}
+.container .title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title1{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+.container form .user-details{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% /2 - 20px);
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+.user-details .input-box details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid
+{
+  border-color: #aca9a9
+}
+.terms{
+  text-align: center;
+}
+
+.btn{
+    padding: 7px 50px;
+    background:  linear-gradient(to bottom, #83BD75 , #557B83);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+#close{
+  background:#5cb85c;
+}
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: justify;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.policy{
+  text-decoration: none;
+}
+#museum {
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+
+.booking-details{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 7px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+.booking-details input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+}
+
+.submit{
+  text-align: center;
+
+}
+
+.submits{
+  text-align: center;
+}
+
+
+
+.banner{
+  height: 25%;
+  width: 670px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.banner img{
+  width: 100%;
+}
+.container#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    cursor: pointer;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+.popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#a1{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #111;
+}
+a:link, a:visited {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link:active, a:visited:active {
+  color: black;
+  text-decoration: none;
+}
+
+
+.museum-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: none;
+}
