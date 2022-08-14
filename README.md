@@ -41,7 +41,7 @@ My team is described as the ‘process that initiates, guides, and maintains goa
 
 •	Images from Pexels https://www.pexels.com/
 
-•	Svg, Incons from SvgRepo https://www.svgrepo.com/svg
+•	Svg, Icons from SvgRepo https://www.svgrepo.com/svg
 
 **<h3>References</h3>**
 
